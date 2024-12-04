@@ -24,6 +24,7 @@ public class Main {
         System.out.print("Enter the password for validation: ");
         String password = scanDetails.nextLine();
 
+        // Provides symbols for alphabets (lower case and upper case), numbers, and special characters
         char[] str = {
                 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
                 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
@@ -31,18 +32,22 @@ public class Main {
                 '!', '@', '#', '$', '%', '^', '&', '*', '_',
         };
 
+        // Provides symbols for special characters
         char[] specialStr = {
                 '!', '@', '#', '$', '%', '^', '&', '*', '_',
         };
 
+        // Provides symbols for numbers
         char[] num = {
                 '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
         };
 
+        // Provides symbols for lower case letters
         char[] lowerCase = {
                 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
         };
 
+        // Provides symbols for upper case letters
         char[] upperCase = {
                 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
         };
@@ -109,3 +114,9 @@ public class Main {
 
     }
 }
+
+/*
+ Extra Ideas
+ Add a file with common passwords to avoid (a password dictionary)
+ Add the same thing to the password genetator
+ */
